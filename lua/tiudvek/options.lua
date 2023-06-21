@@ -20,3 +20,5 @@ opt.mouse = "a"
 opt.whichwrap:append "<>[]hl"
 
 g.mapleader = ","
+
+vim.cmd('colorscheme embark')

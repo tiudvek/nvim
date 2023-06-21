@@ -14,6 +14,14 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
+    use 'nvim-treesitter/nvim-treesitter'
+
+    use 'andreasvc/vim-256noir'
+    use { 'embark-theme/vim', as = 'embark' }
+   
+    use 'nvim-tree/nvim-tree.lua'
+    use 'nvim-tree/nvim-web-devicons'
+
     if packer_bootstrap then
         require('packer').sync()
     end
