@@ -28,6 +28,8 @@ return require('packer').startup(function(use)
 
     use {'akinsho/toggleterm.nvim', tag = '*' }
 
+    use 'glepnir/dashboard-nvim'
+
     if packer_bootstrap then
         require('packer').sync()
     end
